@@ -8,5 +8,5 @@ To run:
 4. surf to [http://localhost:8080](http://localhost:8080)
 
 This is a project that uses markdown, html5 and es6 to make a single page blog or portfolio. Look in the pages or items folder to see the markdown and the index.js meta-data.# assignment4
-# assignment4
-# assignment4
+# assignment4!
+# assignment4 HELLO
