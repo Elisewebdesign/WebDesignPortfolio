@@ -1,5 +1,4 @@
-Browser Blog!!
-
+Browser Blog
 To run:
 
 1. make a new folder and open it in vscode or your favourite IDE
