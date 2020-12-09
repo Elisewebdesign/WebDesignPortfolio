@@ -1,0 +1,44 @@
+<html lang="en">
+<title> Web Design Portfolio</title>
+<head>
+    <link rel="stylesheet" href="css/index.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap');
+    </style>
+</head>
+<body>
+    <header></header>
+    <nav id="navigationBar" aria-label="navigation"></nav>
+
+    <main>
+    <div class="hero-image">
+        <div class="hero-text">
+          <h1><b>Elise VanderWindt</b></h1>
+          <p>UX220 Portfolio</p>
+        </div>
+      </div>
+
+
+
+    <article id="pages" class="container"></article>
+    <h2 class = contactHeading><b>Contact Me</b></h2>
+
+
+    <form action="https://damp-escarpment-58222.herokuapp.com/send" method="POST" class = contactSection>
+        <p><label class = contactLabel> Name: <input name="name" placeholder="Enter your name" type="name" required/></label>
+        <p><label class = contactLabel>Email: <input name="email" placeholder="Enter your email" type="email"required/></label>
+        <p><label class = contactLabel>Message: <textarea name="message" placeholder="Type your message"required></textarea></label><br>
+        <button class = contactButton type="submit"><b>Send Message</b></button>
+    </form>
+
+</main>
+    <footer></footer>
+    <script src="js/index.js" type="module"></script>
+
+
+
+</body>
+
+</html>
