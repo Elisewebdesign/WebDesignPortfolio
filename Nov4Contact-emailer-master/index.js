@@ -9,7 +9,7 @@ const app = express();
 app.use(bodyParser.json());
 // parse application/x-www-form-urlencoded
 app.use(bodyParser.urlencoded({ extended: true }));
-// parse multipart/form-data
+// parse multipart/form-data!
 app.use(multer({ dest: __dirname + '/file/uploads/' }).any());
 
 // set up cors
