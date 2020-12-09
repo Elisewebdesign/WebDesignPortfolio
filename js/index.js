@@ -4,6 +4,15 @@ import "https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js";
 import aPages from "../pages/index.js";
 import aItems from "../items/index.js";
 
+
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+var dropdownName= "Show More";
+
+
+
+
 //Changes
 class Page {
     constructor(){
@@ -86,6 +95,7 @@ class Section extends Page {
     }
 }
 
+
 class Article extends Page {
     render() {
         for (let n = 0; n < aPages.length; n++) {
@@ -125,7 +135,7 @@ class Nav extends Page {
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">Portfolio of ${this.sName}</a>
+                <a class="navbar-brand" href="index.html">Portfolio of ${this.sName}</a>
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav navbar-right">
@@ -134,10 +144,12 @@ class Nav extends Page {
             </div>
 
         </div>
+        
 
         `);
     }
 }
+
 
 class Portfolio extends Page {
     constructor() {
@@ -157,7 +169,9 @@ class Portfolio extends Page {
     }
 }
 
+
 $(document).ready(() => {
     new Portfolio().render();
+    
 });
 
