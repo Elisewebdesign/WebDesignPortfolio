@@ -353,3 +353,8 @@ input[type=name] {
 ::-webkit-input-placeholder { /* WebKit browsers */
     color: rgb(0, 0, 0);
 }
+
+.references{
+    text-indent: -36px; 
+    padding-left: 36px;
+}

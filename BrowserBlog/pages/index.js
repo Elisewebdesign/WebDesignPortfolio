@@ -1,7 +1,6 @@
 export default [{"title":"About", "fname":"about.md"},
 {"title":"Work", "fname":"work.md"},
-{"title":"Contact", "fname":"contactFrom.md" },
+{"title":"Contact", "fname":"contact.md" },
 ];
 
 
-//{"title":"Testing3", "fname":"portfolio.md"},
