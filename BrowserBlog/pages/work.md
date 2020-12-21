@@ -82,7 +82,7 @@
                 <p class = description><b>Research References</b><p>
                 <div class = references>
                 <p class = notBold>Tasnim, H. (2020). Attitudes and barriers design professionals face in creating inclusive digital products for older adults (Order No. 27737381). Available from ProQuest Dissertations & Theses A&I; ProQuest Dissertations & Theses Global. (2425070225). Retrieved from https://libproxy.wlu.ca/login?url=https://www-proquest-com.libproxy.wlu.ca/dissertations-theses/attitudes-barriers-design-professionals-face/docview/2425070225/se-2?accountid=15090</p><br>
-                <p class = notBold>Khan, A., & Khusro, S. (2019). Blind-friendly user interfaces – a pilot study on improving the accessibility of touchscreen interfaces. Multimedia Tools and Applications, 78(13), 17495-17519. doi:http://dx.doi.org.libproxy.wlu.ca/10.1007/s11042-018-7094-y</p>
+                <p class = notBold>Khan, A., & Khusro, S. (2019). Blind-friendly user interfaces – a pilot study on improving the accessibility of touchscreen interfaces. Multimedia Tools and Applications, 78(13), 17495-17519. doi:http://dx.doi.org.libproxy.wlu.ca/10.1007/s11042-018-7094-y</p><br>
                 <div>
             </div>
         </div>
